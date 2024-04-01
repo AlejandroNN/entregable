@@ -45,26 +45,27 @@ header {
     align-items: center;
     position: relative;
     z-index: 1;
+    margin-top: 50px;
 }
 .logo img {
-    width: 150px;
+    width: 120px;
 }
 .Menu {
     display: flex;
     align-items: center;
 }
 .Menu nav {
-    margin: 10px 20px;
+    margin: 0px 20px;
 }
 .Menu nav ul {
     display: flex;
 }
 .Menu nav ul li {
     list-style: none;
-    margin: 20px 16 px;
+    margin: 20px 16px;
 }
 .Menu nav ul li a {
-    color: black;
+    color: white;
     font-size: var(--lowText_font_size);
     position:relative;
 }
@@ -87,6 +88,12 @@ header {
 }
 .Menu .SocialMedia{
     margin: 0px 10px;
+}
+.Menu .SocialMedia a{
+    margin: 0px 4px;
+}
+.Menu .SocialMedia img{
+    width: 20px;
 }
 /*End header*/
 /*Portada Inicio*/
@@ -139,9 +146,38 @@ header {
     width: 100%;
 }
 .image__cover img{
+  
     width: 550px;
 }
+
 /*End portada inicio*/
 
 /*Estillos generales cards*/
+.container__card-primary{
+    padding-top: 100px;
+}
 
+.card__primary{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.text__card-primary{
+    max-width: 800px;
+    margin: auto;
+}
+
+.text__card-primary p{
+    color: var(--color_text-primary);
+    letter-spacing: 4px;
+    font-size: var(--text_paragraph);
+    font-weight: 500;
+}
+
+.text__card-primary h1{
+    font-size: var(--text_size_title);
+    font-weight: 600;
+    color: var(--color_text-secundary);
+}
