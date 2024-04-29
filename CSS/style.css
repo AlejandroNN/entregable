@@ -49,6 +49,7 @@ header {
 }
 .logo img {
     width: 120px;
+    border-radius: 50%;
 }
 .Menu {
     display: flex;
@@ -142,12 +143,10 @@ header {
     border: 2px solid var(--main_color-primary);
     color: var(--color_text-terdiary);
 }
-.image__cover{
-    width: 100%;
-}
-.image__cover img{
-  
-    width: 550px;
+
+.image_cover img{
+    border-radius: 20px;
+    width: 620px;
 }
 
 /*End portada inicio*/
@@ -279,7 +278,6 @@ header {
 }
 .container__box-cardPrimarytwo{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
 }
