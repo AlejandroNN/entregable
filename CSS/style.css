@@ -281,3 +281,9 @@ header {
     justify-content: center;
     margin-top: 40px;
 }
+.fotmulario{
+    margin: 100px;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+}
